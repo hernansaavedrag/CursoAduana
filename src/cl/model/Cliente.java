@@ -27,8 +27,16 @@ public class Cliente {
 		return apellido;
 	}
 
-	public void setApellido(String apellido) {
-		this.apellido = apellido;
+	
+	
+	public void mensaje() {
+		System.out.println("Hola mundo");
+	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
 	}
 	
 	
